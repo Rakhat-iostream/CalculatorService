@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Rakhat-iostream/grpc-go-course/greet/greetpb"
 	"google.golang.org/grpc"
 	"io"
 	"log"
 	"net"
+	"rakhat/greet/greetpb"
 	"time"
 )
 

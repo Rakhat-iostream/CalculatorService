@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Rakhat-iostream/grpc-go-course/greet/greetpb"
 	"google.golang.org/grpc"
 	"io"
 	"log"
+	"rakhat/greet/greetpb"
 	"time"
 )
 
@@ -19,6 +19,7 @@ func main() {
 	defer conn.Close()
 	c := greetpb.NewCalculatorServiceClient(conn)
 	//PrintPrimeResponses(120, c)
+
 	PrintAverage([]int32{1, 2, 3, 4, 5}, c)
 }
 

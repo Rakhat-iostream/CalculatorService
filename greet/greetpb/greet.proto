@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet;
 
-option go_package="github.com\\Rakhat-iostream\\grpc-go-course\\greet\\greetpb;greetpb";
+option go_package="github.com/Rakhat-iostream/CalculatorService";
 
 
 message NumbersRequest{

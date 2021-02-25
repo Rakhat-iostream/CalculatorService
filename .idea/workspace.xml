@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8be738-8f9e-4580-9edf-afca08ef3ccd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greet_client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greet_client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greet_server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greet_server/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greetpb/greet.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greetpb/greet.pb.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greet/greetpb/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greetpb/greet.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greetpb/greet_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/greetpb/greet_grpc.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +54,7 @@
       <recent name="C:\Users\ASUS\go\src\github.com\Fring02\grpc-go-course\greet" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/Fring02/grpc-go-course/greet/greet_client">
-    <configuration name="go build github.com/Fring02/grpc-go-course/greet/greet_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="grpc-go-course" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/greet/greet_client/client.go" />
-      <package value="github.com/Fring02/grpc-go-course/greet/greet_client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build rakhat/greet/greet_client">
     <configuration name="go build github.com/Fring02/grpc-go-course/greet/greet_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc-go-course" />
       <working_directory value="$PROJECT_DIR$" />
@@ -73,9 +64,44 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/Rakhat-iostream/CalculatorService" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc-go-course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/greet/greet_client/client.go" />
+      <package value="github.com/Rakhat-iostream/CalculatorService" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build rakhat/greet/greet_client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc-go-course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/greet/greet_client/client.go" />
+      <package value="rakhat/greet/greet_client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build rakhat/greet/greet_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc-go-course" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/greet/greet_server/server.go" />
+      <package value="rakhat/greet/greet_server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.com/Rakhat-iostream/CalculatorService" />
+      <item itemvalue="Go Build.go build github.com/Fring02/grpc-go-course/greet/greet_server" />
+      <item itemvalue="Go Build.go build rakhat/greet/greet_client" />
+      <item itemvalue="Go Build.go build rakhat/greet/greet_server" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/Fring02/grpc-go-course/greet/greet_client" />
+        <item itemvalue="Go Build.go build rakhat/greet/greet_client" />
+        <item itemvalue="Go Build.go build rakhat/greet/greet_server" />
+        <item itemvalue="Go Build.go build github.com/Rakhat-iostream/CalculatorService" />
         <item itemvalue="Go Build.go build github.com/Fring02/grpc-go-course/greet/greet_server" />
       </list>
     </recent_temporary>
@@ -92,34 +118,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="561" y="246" key="#Go_Modules/0.0.1536.824@0.0.1536.824" timestamp="1614247193157" />
+    <state x="223" y="60" width="1089" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614247665660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="60" width="1089" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614247665660" />
     <state x="459" y="198" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614168640127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="459" y="198" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1614168640127" />
-    <state x="600" y="286" key="Github.ShareDialog" timestamp="1614245667801">
+    <state x="600" y="286" key="Github.ShareDialog" timestamp="1614247260202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="600" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1614245667801" />
-    <state x="475" y="50" key="Github.UntrackedFilesDialog" timestamp="1614245673863">
+    <state x="600" y="286" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1614247260202" />
+    <state x="475" y="50" key="Github.UntrackedFilesDialog" timestamp="1614247274025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="50" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614245673863" />
-    <state width="1485" height="197" key="GridCell.Tab.0.bottom" timestamp="1614246619191">
+    <state x="475" y="50" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614247274025" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1614247757664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614246619191" />
-    <state width="1485" height="197" key="GridCell.Tab.0.center" timestamp="1614246619191">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614247757664" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1614247757663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614246619191" />
-    <state width="1485" height="197" key="GridCell.Tab.0.left" timestamp="1614246619191">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614247757663" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1614247757663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614246619191" />
-    <state width="1485" height="197" key="GridCell.Tab.0.right" timestamp="1614246619191">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614247757663" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1614247757663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1485" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614246619191" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614247757663" />
     <state x="153" y="0" key="SettingsEditor" timestamp="1612530932461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
