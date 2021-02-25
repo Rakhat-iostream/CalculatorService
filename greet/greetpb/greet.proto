@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package greet;
+
+option go_package="github.com\\Rakhat-iostream\\grpc-go-course\\greet\\greetpb;greetpb";
+
+
+message NumbersRequest{
+  int32 firstNumber = 1;
+  int32 secondNumber = 2;
+}
+message NumbersResponse{
+  int32 result = 1;
+}
+
+message IntegerRequest{
+  int32 number = 1;
+}
+message IntegerResponse{
+  int32 result = 1;
+}
+message AverageResponse{
+  double result = 1;
+}
+service CalculatorService{
+  rpc GetSum(NumbersRequest) returns (NumbersResponse);
+  rpc PrimeNumberDecomposition(IntegerRequest) returns (stream IntegerResponse);
+  rpc ComputeAverage(stream IntegerRequest) returns (AverageResponse);
+}
