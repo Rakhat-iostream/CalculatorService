@@ -18,11 +18,6 @@ type CalculatorService struct {
 	greetpb.UnimplementedCalculatorServiceServer
 }
 
-func (s CalculatorService) GetSum(ctx context.Context, req *greetpb.NumbersRequest) (*greetpb.NumbersResponse, error) {
-	fmt.Printf("Sum function was invoked with %v \n", req)
-	first, second := req.GetFirstNumber(), req.GetSecondNumber()
-	return &greetpb.NumbersResponse{Result: first + second}, nil
-}
 func (s *Server) Greet(ctx context.Context, req *greetpb.GreetRequest) (*greetpb.GreetResponse, error) {
 	fmt.Printf("Greet function was invoked with %v \n", req)
 	firstName := req.GetGreeting().GetFirstName()

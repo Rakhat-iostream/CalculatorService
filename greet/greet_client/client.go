@@ -18,7 +18,7 @@ func main() {
 	}
 	defer conn.Close()
 	c := greetpb.NewCalculatorServiceClient(conn)
-	//PrintPrimeResponses(120, c)
+	PrintPrimeResponses(120, c)
 
 	PrintAverage([]int32{1, 2, 3, 4, 5}, c)
 }
